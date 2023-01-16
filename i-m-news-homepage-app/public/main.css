@@ -10,13 +10,14 @@ a {
   color: #444;
 }
 .container {
-  margin: 5% 0 5% 0;
+  margin: 1% 0 10% 0;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
+  height: 20vh;
 }
 .navigation-tabs {
   display: flex;
@@ -31,9 +32,9 @@ a {
 }
 
 .main {
+  height: 80vh;
   width: 80%;
   margin: 0 auto;
-  margin-top: 5%;
   display: flex;
   gap: 30px;
 }
@@ -41,9 +42,11 @@ a {
   width: 40%;
 }
 .img-placeholder {
-  background-color: #444;
   width: 100%;
-  height: 40vh;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-content-subcontainer {
   margin-top: 3%;
@@ -78,13 +81,14 @@ a {
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
+  margin-top: 5%;
 }
 
 .bottomArticle {
+  height: 10vh;
   width: 20%;
   display: flex;
 }
-.bottomArt-img-placeholder {
-  background-color: #444;
-  width: 100%;
+.bottomArt-img {
+  height: 140px;
 }
