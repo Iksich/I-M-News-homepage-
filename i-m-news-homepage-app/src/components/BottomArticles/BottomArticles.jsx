@@ -32,9 +32,9 @@ function BottomArticle() {
             <img className="bottomArt-img" src={data.img}></img>
           </div>
           <div>
-            <div>{data.number}</div>
-            <div>{data.title}</div>
-            <div>{data.content}</div>
+            <div className="article-number">{data.number}</div>
+            <h3>{data.title}</h3>
+            <p>{data.content}</p>
           </div>
         </div>
       ))}

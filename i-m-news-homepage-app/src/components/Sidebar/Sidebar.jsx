@@ -22,11 +22,11 @@ function Sidebar() {
   ]);
   return (
     <div className="sidebar">
+      <h1>New</h1>
       {sidebarData.map((data) => (
-        <div key={data.key}>
+        <div className="sideArticle" key={data.key}>
           <h3>{data.title}</h3>
           <p>{data.content}</p>
-          <hr></hr>
         </div>
       ))}
     </div>
